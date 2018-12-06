@@ -18,7 +18,7 @@ if sys.platform == 'win32':
     libraries = ['Ws2_32', 'Advapi32']
 else:
     objects = ['./nng/build/libnng.a']
-    libraries = []
+    libraries = ['rt']
 
 
 ffibuilder.set_source(
