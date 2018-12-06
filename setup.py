@@ -10,7 +10,7 @@ import setuptools.command.build_ext
 THIS_DIR = os.path.dirname(__file__)
 
 
-NNG_REVISION = '6c334f3'
+NNG_REVISION = 'e65adefd7ddc55d5b66e82c9b875571641eedcf3'
 
 
 def build_nng_lib():
